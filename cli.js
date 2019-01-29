@@ -1,5 +1,6 @@
 #! /usr/local/bin/node
 const path = require('path')
+// fix
 const fs = require('fs')
 function change(p){
   let content = String(fs.readFileSync(p))
